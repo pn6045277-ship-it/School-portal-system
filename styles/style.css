@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: rgb(3, 3, 108);
+  justify-content: space-between;
+  padding: 5px 70px;
+  align-items: center;
+  border-bottom: 1px solid rgb(1, 94, 255);
+}
+
+.school_name {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.school_name img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.school_name h1 {
+  color: white;
+  margin-bottom: 2px;
+}
+
+.school_name ul {
+  display: flex;
+}
+
+.school_name ul #no_decoration_li {
+  list-style: none;
+}
+
+.school_name ul li {
+  margin-right: 30px;
+  font-size: 16px;
+  color: white;
+}
+
+.login_link .login_paragraph {
+  color: white;
+  font-size: 18px;
+}
+
+.login_link .login_paragraph a {
+  color: rgb(254, 254, 254);
+  text-decoration: none;
+}
+
+/* form styling */
+main {
+  background-image: url("../Pictures/school_backgrd.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+}
+
+.form_container {
+  background-color: rgba(255, 255, 255, 0.673);
+  height: 85vh;
+  padding-top: 20px;
+}
+
+.form_container .flex_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form_container .flex_section img {
+  width: 40px;
+}
+
+.flex_image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form_container form {
+  width: 400px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 30px;
+  margin-left: 70px;
+  height: 75vh;
+}
+
+.form_container form .create_account {
+  color: rgb(1, 1, 133);
+  margin-bottom: 5px;
+}
+
+.form_container form .fill_in_details {
+  color: rgb(1, 1, 65);
+  font-size: 17px;
+}
+
+.form_container form input {
+  display: block;
+  padding: 5px 15px;
+  margin: 15px 0;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 1px solid rgba(1, 1, 76, 0.524);
+  width: 100%;
+}
+
+.form_container form input::placeholder {
+  color: rgba(3, 3, 104, 0.51);
+}
+
+.form_container form #teacher {
+  display: inline;
+  margin: 0 5px 0 0;
+  width: 20px;
+}
+
+.form_container form #student {
+  display: inline;
+  margin: 5px 5px 0 10px;
+  width: 10px;
+}
+
+.form_container .flex_section #login {
+  height: 60vh;
+}
+
+.form_container .flex_section #login #remember {
+  display: inline;
+  margin: 5px 5px 0 0px;
+  width: 15px;
+}
+
+.form_container .flex_section #login label {
+  font-size: 17px;
+}
+
+.form_container .flex_section #login .forgot_password a {
+  margin-left: 50px;
+  color: blue;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.form_container .flex_section #login .foot {
+  font-size: 12px;
+  text-align: center;
+}
+
+.form_container form label {
+  color: rgb(1, 1, 100);
+  font-size: 20px;
+}
+
+.form_container form .role_par {
+  font-size: 18px;
+  color: rgba(0, 0, 141, 0.81);
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form_container form button {
+  display: block;
+  width: 100%;
+  background-color: rgb(3, 3, 188);
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.form_container form button:hover {
+  background-color: rgb(1, 1, 217);
+  transition: 0.5s;
+  scale: 1.01;
+}
+
+.form_container form .have_account {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.form_container #login .have_account {
+  color: rgb(0, 64, 255);
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+#register {
+  background-color: transparent;
+  border: 2px solid blue;
+  color: rgb(2, 2, 206);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#log {
+  background: none;
+  color: blue;
+  display: inline;
+  margin-left: -20px;
+  margin-top: 0;
+  width: 40px;
+}
+
+.form_container form .have_account a {
+  text-decoration: none;
+  color: blue;
+}
+
+.form_container .flex_section .blue_section .center_img img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.form_container .flex_section .blue_section {
+  background-color: rgb(1, 1, 135);
+  color: rgb(245, 211, 147);
+  width: 300px;
+  text-align: center;
+  position: relative;
+  top: -20px;
+  height: 85vh;
+  clip-path: polygon(20% 0,
+      100% 0,
+      100% 100%,
+      0 100%);
+  padding-top: 100px;
+  font-size: 25px;
+}
+
+.form_container .flex_section .blue_section h2 {
+  margin: 10px 0;
+}
+
+.form_container .flex_section #sign_up {
+  display: block;
+}
+
+.form_container .flex_section #login {
+  display: none;
+}
+
+/* HOME PAGE STYLING */
+
+.home_page {
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.home_page .sch_name h1 {
+  color: rgb(3, 3, 134);
+}
+
+.home_page .sch_name ul li {
+  color: rgb(1, 1, 157);
+  font-size: 18px;
+}
+
+.name_letter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.name_letter .user_name_display {
+  color: rgb(1, 1, 123);
+}
+
+.name_letter .first_letter {
+  color: gold;
+  background-color: rgb(1, 1, 139);
+  padding: 2px 8px 2px 10px;
+  border-radius: 100%;
+  font-size: 1.5rem;
+}
+
+.nav_bar a {
+  color: rgb(1, 1, 123);
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav_bar #no_margin {
+  margin-right: 0;
+}
+
+.nav_bar a:hover {
+  cursor: pointer;
+  text-decoration: 3px underline rgb(0, 0, 111);
+  text-underline-offset: 5px;
+}
+
+.search_icon button {
+  background: none;
+  border: none;
+}
+
+.search_icon button:hover {
+  cursor: pointer;
+}
+
+.search_icon i {
+  font-size: 20px;
+}
+ #logout_btn{
+  padding: 5px 10px;
+  background-color: transparent;
+  color: rgb(57, 57, 194);
+  font-size: 17px;
+  font-weight: bold;
+  border: 1px solid rgb(57, 57, 194);
+  border-radius: 10px;
+  text-decoration: none;
+}
+#logout_btn:hover{
+  background-color: rgb(32, 32, 230);
+  color: white;
+  transition: 1s;
+  scale: 1.02;
+}
+
+/* HOME PAGE HERO_SECTION STYLING */
+
+.home_background{
+  background-image: url(../Pictures/file_00000000f1248230bf4b9cc9f3e0200a.png);
+  height: 70vh;
+}
+.container_background {
+  background-color: rgba(0, 0, 24, 0.613);
+  height: 70vh;
+}
+
+.container_background .flex_container {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wel_message {
+  color: white;
+  font-size: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 5px;
+}
+
+.description_sch {
+  color: rgb(241, 205, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.container_background .flex_container ul {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.container_background .flex_container ul li {
+  color: white;
+  margin-right: 30px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_background .flex_container ul #no_decoration_li {
+  list-style: none;
+}
+
+.describe {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.container_background .flex_container .log_image img {
+  width: 200px;
+}
+
+.button_links a {
+  text-decoration: none;
+}
+
+.button_links #explore {
+  background-color: gold;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 30px;
+  color: rgb(1, 1, 44);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.button_links #contact {
+  background-color: transparent;
+  padding: 10px 20px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
